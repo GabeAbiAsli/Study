@@ -1,0 +1,40 @@
+body{
+    background:linear-gradient(320deg, rgb(227, 13, 182), rgb(1, 250, 254), rgb(5, 1, 38));
+}
+
+.topBar{
+    background-color: rgba(141, 141, 156, 0.7);
+    display:flex;
+    padding-left: 2vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0.5vh;
+}
+
+.topBar .menu{
+    margin:0;
+    display: block;
+    padding: 0.1%;
+    transition: 0.2s;
+}
+
+.searchy{
+    display: block;
+    align-self: center;
+    position: absolute;
+    right: 2%;
+    mask-border-mode: 25px;
+}
+
+.menu:hover {
+    background-color: rgba(51, 51, 56, 0.7);
+    transition: 0.2s;
+    color: lavender;
+}
+
+.main{
+ /*   display: grid;*/
+    height: 80vh;
+    /*background-color: rgb(95, 95, 107);*/
+    background-color: rgba(255, 123, 002, 0.6);
+}
